@@ -18,3 +18,13 @@ It's made quicky and dirty so feel free to modify and improve and create PR's.
       ( Add the tesseract so it's available to your PATH )
 - Telegram bot
     - https://core.telegram.org/bots
+
+
+## Running and installing
+```bash
+npm install
+node index.js
+```
+
+![image](https://user-images.githubusercontent.com/321691/135719108-b535431b-6ce1-4a90-ba25-a8321d76f675.png)
+![image](https://user-images.githubusercontent.com/321691/135719102-917c99b4-cf15-4fb9-b317-bd1d15bc974d.png)
