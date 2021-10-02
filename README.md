@@ -23,6 +23,7 @@ It's made quicky and dirty so feel free to modify and improve and create PR's.
 ## Running and installing
 ```bash
 npm install
+configure the config.js file. needs a minimum of the Tesseract installation and the telegram bot api token
 node index.js
 ```
 
