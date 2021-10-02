@@ -58,7 +58,7 @@ const getProgress = async () => {
 
             console.log(sendText);
 
-            if (queuePos < 100 || lastReportedAt === null || (now - lastReportedAt > config.reportIntervalAbove100InSeconds)) {
+            if (queuePos < config.reportOftenAboveXQueuePos || lastReportedAt === null || (now - lastReportedAt > config.reportIntervalAboveXInSeconds)) {
                 lastReportedAt = now;
                 await bot.sendMessage(config.telegram.yourId, sendText);
             }
